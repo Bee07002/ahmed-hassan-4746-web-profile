@@ -1,0 +1,38 @@
+{
+  "name": "blogverse-landing",
+  "version": "1.0.0",
+  "description": "A modern 3D design landing page for BlogVerse - a blog web application",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l 3000",
+    "dev": "npx live-server --port=3000 --host=localhost",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "echo 'Ready for deployment'"
+  },
+  "keywords": [
+    "blog",
+    "landing-page",
+    "3d-design",
+    "web-app",
+    "responsive",
+    "modern-ui"
+  ],
+  "author": "BlogVerse Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
